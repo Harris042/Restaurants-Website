@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-family: pangram;
+}
+
+.links a:hover:after { 
+    color: rgb(82, 77, 77);
+}
+
+.links {
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 75px; 
+}
+
+#spare {
+    background-color: white;
+    width: 80px;
+}
+
+#navbar {
+    width: 100%;
+    height: 150px;
+}
+
+#navbar img {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 163px;
+}
+
+header a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+#bar-line {
+    width: 100%;
+    height: 110px;
+    background-image: url("./img/footer_background.jfif");
+    background-repeat: repeat;
+    margin-top: -45px;
+}
+
+#bar-line h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: garamond;
+    padding-top: 17px;
+}
+
+.container {
+    margin: 40px 0 0 0 !important;
+    width: 95% !important;
+    /* text-align: center; */
+}
+
+.menu-col {
+    width: 375px !important;
+    height: 330px !important;
+    margin-left: 30px !important;
+}
+
+.col-sm-4 img {
+    width: 365px;
+    height: 280px;
+}
+
+.menu-row {
+    margin: 20px 0 0 2% !important;
+}
+
+.under-row {
+    background-color: red;
+    width: 365px !important;
+    margin-left: 0px !important;
+}
+
+.under-row .col-sm-6 {
+    width: 50% !important;
+    height: 40px !important;
+}
+
+.under-row .col-sm-6 button {
+    width: 177px;
+    height: 37px;
+    margin-left: -16px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-family: BebasNeue;
+}
+
+.under-row .col-sm-6 h3 {
+    width: 180px;
+    margin-top: 4px;
+    height: 31px;
+    margin-left: -11px;
+    padding: 2px 0 0 30px;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+}
+
+#row-2, #row-3 {
+    margin-top: 100px !important;
+}
+
+.menu-col h2 {
+    text-align: left;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    height: 145px;
+    margin-top: 200px;
+    background-image: url("./img/footer_background.jfif");
+    background-repeat: repeat;
+    color: white;
+}
+
+footer img {
+    width: 45px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}

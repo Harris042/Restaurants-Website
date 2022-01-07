@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+                <img src="./img/logo.png" alt="restaurant logo" id="logo_image">
+                <div class="links" id="spare">
+                </div>
+                <div class="links">
+                    <a href="./cart.html">Cart</a>
+                </div>
+                <div class="links">
+                    <a href="./deals.html">Deals</a>
+                </div>
+                <div class="links">
+                    <a href="./menu.html">Menu</a>
+                </div>
+                <div class="links">
+                    <a href="./index.html">Home</a>
+                </div>
+                
+        </div>
+    </header>
+
+    <div id="body">
+        <div id="bar-line">
+            <img src="./img/cart_logo.png" alt="cart-logo">
+        </div>
+        <div class="cart">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    Your Cart
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Beef Burger      <span class="price">Rs.600</span>       <span class="quantity">1</span></li>
+                    <li class="list-group-item">Pepperoni Pizza  <span class="price">Rs.850</span>       <span class="quantity">1</span></li>
+                    <li class="list-group-item">Fries            <span class="price">Rs.100</span>       <span class="quantity">1</span></li>
+                    <li class="list-group-item">Spaghetti        <span class="price">Rs.450</span>       <span class="quantity">2</span></li>
+                    <li class="list-group-item">1.5 litre Coke   <span class="price">Rs.120</span>       <span class="quantity">1</span></li>
+                    <li class="list-group-item" id="total"><span id="total-price">Rs.2120</span></li>
+                </ul>
+            </div>
+        </div>
+        <button onclick="location.href = './payment.html';" id="checkout">Checkout</button>
+    </div>
+
+    <footer>
+        <h3>Healthy Fast Casual-Food, Crafted with &heartsuit;</h3>
+        <p>© 2021 Italian Pakistan. All rights reserved.</p>
+        <a href="#facebook-page"><img src="./img/facebook_logo_2.png" alt="facebook logo"></a>
+        <a href="#instagram-page"><img src="./img/instagram_logo.png" alt="instagram logo"></a>
+        <a href="#twitter-page"><img src="./img/twitter_logo.png" alt="twitter logo"></a>
+        <a href="#youtube-page"><img src="./img/youtube_logo.png" alt="youtube logo"></a>
+    </footer>
+</body>
+</html>
